@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(177, 55, 55);
+}
+#representative{
+    display: flex;
+    flex-wrap: wrap;
+}
+.baseInfo{
+    display: flex;
+    background-color: whitesmoke;
+    border: 3px solid blue;
+    padding-right: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ul{
+    color: blanchedalmond;
+}
+.legislation{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 200, 166);
+    width:100%;
+}
